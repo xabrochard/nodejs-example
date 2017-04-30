@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-example",
+  "version": "1.0.0",
+  "description": "Simple guide to Node.js, the Express framework and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon --inspect server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xbrochar/nodejs-example.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Scott Domes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xbrochar/nodejs-example/issues"
+  },
+  "homepage": "https://github.com/xbrochar/nodejs-example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
